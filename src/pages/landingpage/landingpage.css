@@ -1,0 +1,22 @@
+.landingpage {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lp-h1 {
+    font-size: 4rem;
+    color: white(35, 77, 180);
+    padding-bottom: 3rem;
+}
+
+button {
+    background: white;
+    border: solid 2px black;
+    padding: 0.375em 1.125em;
+    font-size: 1rem;
+    font-family: sans-serif;
+}

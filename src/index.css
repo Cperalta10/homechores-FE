@@ -102,6 +102,7 @@ section {
 }
 body {
     line-height: 1;
+    color: white;
 }
 ol,
 ul {
@@ -121,4 +122,17 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+.btn {
+    background: white;
+    border: solid 2px black;
+    padding: 0.375em 1.125em;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:visited {
+    color: black;
 }

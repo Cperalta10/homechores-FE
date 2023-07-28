@@ -1,0 +1,12 @@
+.loader {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #404c4a;
+}
+
+h1 {
+    color: white;
+}

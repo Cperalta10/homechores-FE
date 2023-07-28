@@ -1,0 +1,98 @@
+.container {
+    display: grid;
+    grid-template-columns: 25rem 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header header"
+        "sideinfo sidebar sidebar"
+        "footer footer footer";
+    min-height: 100vh;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    grid-area: header;
+    border: 1px solid white;
+    padding: 2rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sideinfo {
+    grid-area: sideinfo;
+    border: 1px solid white;
+    padding: 2rem;
+    background-color: black;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    border: 1px solid white;
+    padding: 2rem;
+    background-color: black;
+}
+
+footer {
+    grid-area: footer;
+    border: 1px solid white;
+    padding: 2rem;
+    background-color: black;
+}
+
+.hrf-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hrf-logo h1 {
+    font-size: 3rem;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.modal {
+    background-color: black;
+    color: black;
+}
+
+.modal button {
+    color: black;
+}
+
+input {
+    margin: 0.5rem;
+}
+
+select {
+    margin: 0.5rem;
+}
+
+.submit-btn {
+    margin: 1rem 1rem 1rem 0;
+}
+
+.join-modal {
+    color: black;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto minmax(5rem, auto) 1fr auto;
+        grid-template-areas:
+            "header"
+            "sideinfo"
+            "sidebar"
+            "footer";
+    }
+}

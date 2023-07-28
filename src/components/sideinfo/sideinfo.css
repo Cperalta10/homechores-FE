@@ -1,0 +1,30 @@
+.sideinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.info-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-header h2 {
+    font-size: 30px;
+}
+
+.family {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.member {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
